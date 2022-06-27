@@ -10,6 +10,10 @@
 @import "./assets/css/header.css";
 @import "./assets/css/footer.css";
 
-.bgr-img{
-    background-image: url('https://mineahihi.com/wp-content/uploads/2019/09/nhieu-sao-vc.png')
+.bgr-img {
+    background-image: url('https://mineahihi.com/wp-content/uploads/2019/09/nhieu-sao-vc.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
