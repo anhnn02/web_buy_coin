@@ -1,0 +1,6 @@
+.btn-primary {
+    @apply tw-w-full tw-bg-sec tw-p-3 tw-rounded-[var(--rd-pri)] tw-text-white tw-duration-300
+}
+.btn-primary:hover{
+    filter: drop-shadow(0px 0px 10px #FF6900);
+}

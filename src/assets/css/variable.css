@@ -1,0 +1,36 @@
+:root {
+    --primary: #32354C;
+    --secondary: #FF6900;
+    --thirty: #2B2E43;
+    --primary-text: #C2C5DC;
+    --secondary-text: #C0C1C8;
+    --white: #fff;
+    --bgr: #32354C;
+    --danger: #F36250;
+    --rd-pri: 5px;
+    --rd-sec: 10px;
+    --size-base: 15px;
+    --size-smallest: 12px;
+    --size-small: 14px;
+    --size-large: 16px;
+    --size-larger: 20px;
+    --size-largest: 24px;
+}
+.size-base{
+   font-size: var(--size-base)
+}
+.size-smallest{
+   font-size: var(--size-smallest)
+}
+.size-small{
+   font-size: var(--size-small)
+}
+.size-large{
+   font-size: var(--size-large)
+}
+.size-larger{
+   font-size: var(--size-larger)
+}
+.size-largest{
+   font-size: var(--size-largest)
+}

@@ -1,0 +1,46 @@
+.menu__item {
+    @apply tw-relative tw-text-sec-text tw-py-7 tw-duration-300
+}
+.menu__item i{
+    @apply tw-text-sec-text
+}
+
+.menu__item::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: white;
+    transform-origin: bottom right;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+}
+.menu__item:hover::before {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+.menu__item:hover {
+    @apply tw-text-white
+}
+.menu__item:hover i {
+    @apply tw-text-white
+}
+.menu__item.active{
+    @apply tw-text-white;
+}
+.menu__item.active i{
+    @apply tw-text-white;
+}
+.menu__item.active::before {
+    transform: scaleX(1);
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: white;
+    transform-origin: bottom right;
+}
